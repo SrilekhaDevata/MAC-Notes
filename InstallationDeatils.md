@@ -13,20 +13,21 @@ Use Homebrew to install the most recent released version of Grafana using Homebr
 
 https://brew.sh/
 
-[ To install Brew paste the below command in Terminal
+To install Brew paste the below command in Terminal
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ]
+_/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"_ 
 
 On the Homebrew homepage, search for Grafana. The last stable and released version is listed.
 
 Open a terminal and enter:
 
-brew update
-brew install grafana
+_brew update
+brew install grafana_
+
 The brew page downloads and untars the files into /usr/local/Cellar/grafana/version.
 
 Start Grafana using the command:
 
-brew services start grafana
+_brew services start grafana_
 
 Then open http://localhost:3000/ in browser
